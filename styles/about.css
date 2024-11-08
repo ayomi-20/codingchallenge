@@ -1,0 +1,12 @@
+body{
+    background-color: lightcyan;
+    font-size: x-large;
+}
+nav{
+    border:blue;
+    text-align: right;
+    background-color: lightgrey;
+    padding: 25px 25px;
+    border-radius: 29px;
+    outline-style: double;
+}

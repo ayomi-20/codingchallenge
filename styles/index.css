@@ -1,0 +1,55 @@
+body{
+    background-color: lightcyan;
+    font-size: x-large;
+}
+
+nav{
+    border:blue;
+    text-align: right;
+    background-color: lightgrey;
+    padding: 25px 25px;
+    border-radius: 29px;
+    outline-style: double;
+}
+.pic{width: 600px;
+    height: 600px;
+    border-radius: 300px;
+    border: blue;
+    outline-style: double;
+    margin: 25px;
+  }
+.note{
+    position: absolute;
+    top: 260px;
+    left: 420px;
+    font-family: serif;
+    margin: 240px;
+    font-size: 45px;
+    color: blue;
+}
+
+h1{display:inline-table;
+    font-display: flex;
+   text-align:right
+}
+.a{color:blue;}
+.y{color:red;}
+.o{color: yellow;}
+.m{color: orange;}
+.i{color: orangered;}
+.r{color: brown;}
+.w{color: blue;}
+.t{color: orange}
+.h{color: orangered;}
+.p{color: brown;}
+.e{color: blueviolet;}
+.c{color:yellow}
+.icon{
+    height: 50px;
+    width: 50px;
+}
+.socialmedia{
+    position: absolute;
+    top: 60px;
+    margin: 665px;
+}

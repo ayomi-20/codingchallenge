@@ -1,0 +1,144 @@
+body{
+    background-color: lightcyan;
+    font-size: x-large;
+    color:rgb(2, 60, 83);
+}
+
+nav{
+    position: fixed;
+    border:blue;
+    text-align: right;
+    background-color: #f1f1f1;
+    padding: 25px 25px;
+    border-radius: 29px;
+    outline-style: double;
+}
+h1{display:inline-table;
+    font-display: flex;
+   text-align:right
+}
+.icon{
+    height: 50px;
+    width: 50px;
+}
+a{
+    text-decoration: none;
+}
+.love{
+    position: absolute;
+    top: 200px;
+    font-size: 35px;
+    left: 550px;
+}
+.flex-container {
+    position: absolute;
+    top: 280px;
+    left: 550px;
+    font-size: 35px;
+    font-family: serif;
+    display: flex;
+    background-color: rgb(2, 60, 83);
+  }
+  .flex-container > div {
+    background-color: lightcyan;
+    margin-right: 10px;
+    padding: 20px;
+    font-size: 30px;
+    margin-top: none;
+    margin-bottom: none;
+    margin-left: none;
+  }
+  .alt{
+    position: absolute;
+    top: 500px;
+    left: 1200px;
+    font-size: 35px;
+  }
+  form{
+    position: absolute;
+    top: 600px;
+    left: 900px;
+    font-size: 35px;
+    background-color: rgb(185, 236, 236);
+  }
+select{
+    width: 270px;
+    height: 80px;
+    padding: 10px;
+}
+  
+.a{color:blue;}
+.y{color:red;}
+.o{color: rgb(9, 104, 141);}
+.m{color: orange;}
+.i{color: orangered;}
+.r{color: brown;}
+.w{color: blue;}
+.t{color: orange}
+.h{color: orangered;}
+.p{color: brown;}
+.e{color: blueviolet;}
+.c{color:rgb(9, 104, 141)}
+.name-container {
+    display: flex;
+    gap: 15px; /* Adds space between the input fields */
+  }
+  
+  .name-container label {
+    margin-right: 10px; /* Adds space between label and input */
+  }
+  
+  input {
+    padding: 10px;
+    width: 250px; /* You can adjust the width as needed */
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+input::placeholder {
+    font-size: 20px; /* Adjust size as needed */
+    color: gray;     /* Optional: Change the placeholder text color */
+    font-weight: bold; /* Optional: Make the text bold */
+    text-align: center;
+}
+select {
+    font-size: 20px; /* Sets font size for the selected value */
+    padding: 5px;    /* Optional: Improves spacing */
+    width: 250px;    /* Optional: Adjusts width */
+  }
+  
+  option {
+    font-size: 20px; /* Ensures dropdown options match the select size */
+  }
+  textarea {
+    font-size: 20px; /* Regular text size */
+    padding: 10px;   /* Add padding */
+    width: 1000px;    /* Adjust width */
+    height: 150px;   /* Adjust height */
+  }
+
+  /* Styling the placeholder */
+  textarea::placeholder {
+    font-size: 20px;
+    color: gray;
+    font-weight: bold;
+  }
+  .email-button {
+    position: absolute;
+    bottom: 60px;
+    display: inline-block;
+    background-color: white;
+    color: rgb(2, 60, 83);             /* Text color */
+    padding: 20px;       /* Padding */
+    text-decoration: none;    /* Remove underline */
+    border-radius: 5px;       /* Rounded corners */
+    font-size: 35px;          /* Text size */
+    font-weight: bold;        /* Bold text */
+    text-align: center;
+    cursor: pointer;
+    width: 250px; 
+  }
+
+  .email-button:hover {
+    background-color: #0056b3; /* Darker background on hover */
+  }

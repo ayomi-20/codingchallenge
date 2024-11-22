@@ -21,8 +21,22 @@ nav{
     position: fixed;
     top: 150px;
   }
+  .pic1{
+    width: 630px;
+    height: 800px;
+    border-radius: 400px;
+    border:  rgb(9, 104, 141);
+    outline-style: double;
+    margin: 100px;
+    position: fixed;
+    top: 150px;
+    right: 1960px;
+  }
+  a{
+    text-decoration: none;    
+}
   a:hover{
-    background-color: beige;
+    background-color: greenyellow;
   }
 .button{
     position: relative;
@@ -30,8 +44,8 @@ nav{
     left: 1500px;
     color:  rgb(9, 104, 141);
     display: inline;
-    height: 40px;
-    width: 60px;
+    height: 60px;
+    width: 250px;
     background-color:beige;
     padding: 15px 15px;
     text-align: center;
@@ -72,6 +86,15 @@ h1{display:inline-table;
     margin-bottom: none;
     margin-left: none;
   }
+  .more{
+    position: absolute;
+    top: 260px;
+    left: 520px;
+    font-family: serif;
+    margin: 240px;
+    font-size: 30px;
+}
+
   
 
 

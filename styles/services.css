@@ -12,6 +12,12 @@ nav{
     border-radius: 29px;
     outline-style: double;
 }
+a{
+    text-decoration: none;    
+}
+a:hover{
+    background-color: greenyellow;
+  }
 h1{display:inline-table;
     font-display: flex;
    text-align:right}

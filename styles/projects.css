@@ -27,7 +27,7 @@ nav{
 }
 a{
     text-decoration: none;  
-    color: whitesmoke;
+    color: whitesmoke;  
     padding-bottom: 5px;       /* space for the underline */
     border-bottom: 2px solid transparent; /* invisible by default */
     transition: border-color 0.3s ease;   /* smooth effect */  
@@ -36,45 +36,4 @@ a:hover,
 a:focus,
 a:active {
     border-bottom: 2px solid #ff5757; /* pink underline on hover/click */
-}
-.pic{width: 430px;
-    height: 530px;
-    position: fixed;
-    top: 130px;
-    left: 20px;
-  }
-  .about-info {
-    font-size: 20px;
-    color: whitesmoke;
-    position: relative;
-    margin-left: 38%;  
-    text-align: left;
-    margin-top: -90px;
-  }
-  .tab-titles{
-    display: flex;
-    margin: 20px 0 40px;
-  }
-  .tab-links {
-    margin-right: 50px;
-    font-weight: bold;
-    cursor: pointer;
-    position: relative;
-  }
-  .tab-links:hover,
-  .tab-links:focus,
-  .tab-links:active {
-    border-bottom: 2px solid #ff5757; /* pink underline on hover/click */
-}
-
-.tab-contents ul li {
-  list-style: none;
-  margin: 10px 0;
-}
-.tab-contents ul li span {
-  color: #ff5757;
-  font-size: 18px;
-}
-.tab-contents{
-  display: none;
 }

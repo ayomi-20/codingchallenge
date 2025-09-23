@@ -1,20 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
-    background-color: lightcyan;
-    font-size: x-large;
-    color:rgb(2, 60, 83);
+    background-color: black;
+    color:  rgb(9, 104, 141);
+    margin: 50px;
+}
+.logo{
+    width: 300px;
+    height: 250px;
+    margin-top: -90px;
 }
 
 nav{
     position: fixed;
-    border:blue;
-    text-align: right;
-    background-color: #f1f1f1;
-    padding: 25px 25px;
-    border-radius: 29px;
-    outline-style: double;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: x-large;
+    display: flex;
+    justify-content: flex-end; /* aligns links to the right */
+    gap: 20px;                 
+    width: 100%;
+    right: 40px;
+    top: 0;
+    padding: 10px 20px; 
 }
-a:hover{
-  background-color: greenyellow;
+a{
+    text-decoration: none;  
+    color: whitesmoke; 
+    padding-bottom: 5px;       /* space for the underline */
+    border-bottom: 2px solid transparent; /* invisible by default */
+    transition: border-color 0.3s ease;   /* smooth effect */   
+}
+a:hover,
+a:focus,
+a:active {
+    border-bottom: 2px solid #ff5757; /* pink underline on hover/click */
 }
 h1{display:inline-table;
     font-display: flex;
@@ -70,18 +93,7 @@ select{
     padding: 10px;
 }
   
-.a{color:blue;}
-.y{color:red;}
-.o{color: rgb(9, 104, 141);}
-.m{color: orange;}
-.i{color: orangered;}
-.r{color: brown;}
-.w{color: blue;}
-.t{color: orange}
-.h{color: orangered;}
-.p{color: brown;}
-.e{color: blueviolet;}
-.c{color:rgb(9, 104, 141)}
+
 .name-container {
     display: flex;
     gap: 15px; /* Adds space between the input fields */

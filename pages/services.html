@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Ayomirwoth Peace</title>
     <link rel="stylesheet" href="../styles/services.css">
 </head>
 <body>
@@ -17,7 +17,48 @@
         <a href="../pages/contact.html">CONTACT</a>
         </nav>
     </header>
-    <h2 class="M">My services</h2>
+    <div class="container">
+        <h2 class="sub-title">My services</h2>
+        <div class="services-list">
+            <div>
+                <h2>Web Development</h2>
+                <p>Developing web Applications</p>
+                <a href="">learn more</a>
+            </div>
+            <div>
+                <h2>App Development</h2>
+                <p>Developing mobile Applications</p>
+                <a href="">learn more</a>
+            </div>
+            <div>
+                <h2>UI/UX Design</h2>
+                <p>Designing web/ mobile Applications interfaces</p>
+                <a href="">learn more</a>
+            </div>
+        </div>
+    </div>
     
+
+    <script>
+        const navLinks = document.querySelectorAll("nav a");
+
+    // Highlight active link based on click
+    navLinks.forEach(link => {
+        link.addEventListener("click", function() {
+            // remove 'active' from all links
+            navLinks.forEach(l => l.classList.remove("active"));
+            // add 'active' to the clicked link
+            this.classList.add("active");
+        });
+    });
+
+    // ✅ Optional: keep highlight based on current page
+    const currentPage = window.location.pathname.split("/").pop();
+    navLinks.forEach(link => {
+        if (link.getAttribute("href").includes(currentPage)) {
+            link.classList.add("active");
+        }
+    });
+    </script>
 </body>
 </html>

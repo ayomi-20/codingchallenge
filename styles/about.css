@@ -37,6 +37,10 @@ a:focus,
 a:active {
     border-bottom: 2px solid #ff5757; /* pink underline on hover/click */
 }
+nav a.active {
+  border-bottom: 2px solid #ff5757; /* keep pink underline on the active page */
+}
+
 .pic{width: 430px;
     height: 530px;
     position: fixed;
@@ -66,6 +70,9 @@ a:active {
   .tab-links:active {
     border-bottom: 2px solid #ff5757; /* pink underline on hover/click */
 }
+.tab-links.active-link {
+  border-bottom: 2px solid #ff5757; /* keep pink underline when active */
+}
 
 .tab-contents ul li {
   list-style: none;
@@ -77,4 +84,7 @@ a:active {
 }
 .tab-contents{
   display: none;
+}
+.tab-contents.active-tab{
+  display: block;
 }
